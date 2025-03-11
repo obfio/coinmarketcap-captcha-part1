@@ -1,0 +1,16 @@
+{
+  "name": "coinmarketcap-captcha-deobfuscator",
+  "version": "1.0.0",
+  "description": "Deobfuscator for CoinMarketCap captcha code",
+  "main": "deobfuscator.js",
+  "scripts": {
+    "start": "node deobfuscator.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.23.9",
+    "@babel/parser": "^7.23.9",
+    "@babel/traverse": "^7.23.9",
+    "@babel/types": "^7.26.9",
+    "vm": "^0.1.0"
+  }
+}
